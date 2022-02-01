@@ -1,0 +1,259 @@
+.g-set-brnds{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+.g-set-tags{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.welcome-txts p{
+    font-size: 14px;
+}
+.g-sett-box i {
+    font-size: 58px;
+    color: #95aa12;
+}
+
+/* -----BR-(aug-27)---- */
+.sm-line-btn{
+	padding-top:32px;
+}
+.g-sett-box{
+    display: block;
+    background: #FFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+	box-shadow: 0px 0px 5px #0000001c;
+	height:100%;
+}
+.g-sett-box:hover{
+	text-decoration:none;
+}
+.g-sett-box i, .g-sett-box span{
+    display: block;
+}
+.purge-box{
+    border-top: 5px solid #95aa12;
+}
+.g-sett-box i{
+    font-size:45px;
+	color:#95aa12;
+}
+.g-set-brnd{
+	color:#95aa12;
+	font-size:17px;
+	margin-top:10px;
+	margin-bottom:3px;
+}
+.g-set-desc{
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.cust-hnts{
+	font-size:11px;
+	display:block;
+	margin-top: 4px;
+}
+.cust-clr-code {
+    position: relative;
+}
+.cust-clr-code .sp-replacer {
+    position: absolute;
+    top: 31px;
+    right: 16px;
+    border-color: #CCC;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 4px;
+}
+.frm-lbl{
+	font-weight:700!important;
+}
+.crsr-not{
+	cursor:not-allowed;
+}
+.btn-snd-tst {
+    display: block;
+    font-size: 11px;
+    border: 1px solid #CCC;
+    padding: 5px;
+}
+.cust-intrvl{
+	position:relative;
+}
+.cust-intrvl1{
+	position: absolute;
+    display: block;
+    background: #CCC;
+    right: 16px;
+    top: 31px;
+    font-size: 12px;
+    padding: 6px 8px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.cust-intrvl2{
+	position: absolute;
+    display: block;
+    background: #CCC;
+    right: 16px;
+    top: 1px;
+    font-size: 12px;
+    padding: 6px 8px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.tp-hdng{
+	font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+.cust-srt-tbl .search input{
+	padding:19px 6px!important;
+}
+.cust-srt-tbl .fixed-table-container .table thead th .both {
+    background-image: url(../images/sort_both.png)!important;
+}
+.cust-srt-tbl .fixed-table-container .table thead th .asc {
+    background-image: url("../images/sort_asc.png")!important;
+}
+.cust-srt-tbl .fixed-table-container .table thead th .desc {
+    background-image: url("../images/sort_desc.png")!important;
+}
+.table-pagination-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+.table-page-info {
+    font-size: 12px;
+}
+.permissions-item h2{
+	font-size:16px;
+}
+.header-row {
+    background: #e6e6e6!important;
+    border-bottom: 2px solid #d2d4d6;
+}
+.form-group input[type=text] {
+     min-height: 37px;
+}
+.dwnd-btn{
+	background:#17a2b8;
+	padding:5px!important;
+}
+.th-clr0{
+	background:#92a02d!important;
+}
+.th-clr1{
+	background:#cdda75!important;
+}
+.th-clr2{
+	background:#fbc525!important;
+}
+
+/*----- 21-Oct -------*/
+
+.sel-style .ms-choice > span {
+    top: 5px;
+}
+.sel-style{
+	height:37px!important;
+}
+.cust-sel-new{
+	height:37px!important;
+	padding-left: 3px;
+}
+.filt-bt{
+    padding: 7px 10px;
+}
+.doc {
+    background: #97cb5f;
+}
+.btn-note {
+    background: #274379;
+    position: relative;
+}
+.cust-mdl-bdy {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.nt-row {
+    border-bottom: 1px solid #e8e7e7;
+    padding-top: 12px;
+}
+.nt-row:first-child {
+    padding-top: 0px;
+}
+.nt-row h2 {
+    font-size: 12px;
+    font-weight: 700;
+}
+.nt-row-per1 {
+    color: #0dad46;
+}
+.nt-row-per2 {
+    color: #ff6e07;
+}
+.cust-mdl-bdy p {
+    font-size: 13px;
+    line-height: 23px;
+}
+.mdl-lnk {
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.pprclp {
+    color: #000;
+    font-size: 22px;
+    margin-right: 9px;
+}
+.no-brdr{
+	border:none;
+}
+.fold-marg {
+    margin-bottom: 30px;
+}
+.fold-box {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #F5F7F9;
+    padding: 10px 10px 6px 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.fold-name {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #212529;
+}
+.fold-btns {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.btn-primary1 {
+    background: #676d79;
+}
+.page-item.active .page-link {
+    z-index:1;
+}
+.rdo-mt{
+	margin-top:9px;
+}
+
+
+
+.slider-labels {
+  margin-top: 10px;
+  font-size:11px;
+}

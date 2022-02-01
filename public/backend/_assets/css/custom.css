@@ -1,0 +1,321 @@
+.displayshowdiv{
+	display:block;
+}
+.displayhidediv{
+	display:none;
+}
+
+.form-group label.error, #reason-error {
+    color: red;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.cust-nav li.nav-item.active-menu .nav-link {
+    background-color: #95aa12;
+    color:#000 !important;
+}
+a.dropdown-item.active-submenu {
+    background-color: #3a3a3a36;
+    color: #4e4848;
+}
+.resultlogin {
+    font-size: 11px;
+}
+
+/*----loader---*/
+.lds-css {
+    /* display: none; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index:99999;
+}
+@keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.lds-css p {
+    font-size: 48px;
+    color: #FFF;
+    text-align: center;
+}
+.lds-eclipse {
+    position: relative;
+}
+.lds-eclipse div {
+    position: absolute;
+    -webkit-animation: lds-eclipse 1s linear infinite;
+    animation: lds-eclipse 1s linear infinite;
+    width: 184px;
+    height: 184px;
+    top: 50%;
+    left: 50%;
+    margin: -92px 0 0 -92px;
+    border-radius: 50%;
+    box-shadow: 0 8px 0 0 #95A912;
+    -webkit-transform-origin: 92px 96px;
+    transform-origin: 92px 96px;
+}
+.lds-eclipse {
+    -webkit-transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
+    transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
+}
+/*-----Loader End-----*/
+.fltr-main button {
+    line-height: normal;
+}
+.fltr-main .srch-same-line{
+    padding-top: 30px !important;
+}
+
+#crop_modal .img-container img, #rating_modal .img-container img {
+    max-width: 100%;
+}
+
+.customnav li.nav-item.active {
+    background-color: #95a912;
+}
+
+.login-input.is-invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+    /*background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e);*/
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.errordropzone {
+    color: red;
+    font-size: 12px;
+}
+
+.download {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+
+  .download .downloadtext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 3px 0; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    right: -50%;
+    /* right: 105%; */
+  }
+
+  .download .downloadtext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+  .download:hover .downloadtext {
+    visibility: visible;
+  }
+
+.view {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+
+  .view .viewtext {
+    visibility: hidden;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 3px 0; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    right: -50%;
+    /* right: 105%; */
+  }
+
+  .view .viewtext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+  .view:hover .viewtext {
+    visibility: visible;
+  }
+
+
+  .edit {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+
+  .edit .edittext {
+    visibility: hidden;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    right: -50%;
+    /* right: 105%; */
+  }
+
+  .edit .edittext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+  .edit:hover .edittext {
+    visibility: visible;
+  }
+
+  .delete {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+
+  .delete .deletetext {
+    visibility: hidden;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    right: -50%;
+    /* right: 105%; */
+  }
+
+  .delete .deletetext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+  .delete:hover .deletetext {
+    visibility: visible;
+  }
+
+  .cust-tbl {
+    border: 1px solid #d5d5d5;
+}
+
+.cust-tbl thead th {
+    vertical-align: bottom;
+    border-bottom: none;
+    background: #d5d5d5;
+    font-size: 12px;
+}
+
+.cust-tbl tr td {
+    font-size: 12px;
+}
+.cust-tbl tr th,
+.cust-tbl tr td {
+    padding: 10px;
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+}
+
+table.dataTable.cust-tbl {
+    width: 100% !important;
+    border: 1px solid #d5d5d5;
+}
+
+#userselectpop .cust-tbl tr th, #userselectpop .cust-tbl tr td {
+    padding: 3px 10px !important;
+}
+
+.cust-tbl tr th, .cust-tbl tr td {
+    padding: 5px 10px;
+}
+
+.sub-tablenew th{
+    background-color: #e7f596 !important
+}
+
+.sub-tablenew{
+    width: calc(100% - 18px);
+}
+
